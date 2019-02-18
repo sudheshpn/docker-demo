@@ -1,5 +1,4 @@
 node {
-   env.NODEJS_HOME = "${tool 'Node 7.10.1'}"
    env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}" 
    def commit_id
    stage('Preparation') {
